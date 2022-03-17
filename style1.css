@@ -1,0 +1,134 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  text-align: right;
+  padding-left: 50px;
+}
+
+.top a,
+.top i {
+  padding-right: 20px;
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.middle {
+  text-align: center;
+}
+
+.middle img {
+  margin-top: 70px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 95.4px;
+  color: #70757a;
+}
+
+.input-icons {
+  border-radius: 25px;
+  border: 1px solid rgb(194, 191, 191);
+  margin: auto;
+  width: 584px;
+  height: 42px;
+}
+
+.input-icons input {
+  border: none;
+  outline: none;
+  width: 487px;
+  height: 34px;
+  font-size: 16px;
+  padding-top: 7px;
+}
+
+.input-icons i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 100%;
+}
+
+.button button {
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  border: #f8f9fa;
+  cursor: pointer;
+  margin: 20px;
+  /* text-size-adjust: 14px; */
+}
+
+.button button:hover{
+    border-color: red;
+}
+
+a:hover {
+  text-decoration-style: 1px solid #dfe1e5;
+}
+
+.language {
+  margin: 50px;
+}
+
+.bottom div {
+  height: 46.4px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.bottom a {
+  text-decoration-line: none;
+  color: #70757a;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.right-span {
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-magnifying-glass {
+  float: left;
+  font-size: 15px;
+  font-size: 15px;
+}
+
+.fa-microphone {
+  float: right;
+  margin-right: 8px;
+  font-size: 18px;
+  font-size: 18px;
+}
+
+.bottom>div{
+    padding: 15px 30px;
+}
